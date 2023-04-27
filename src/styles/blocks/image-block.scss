@@ -1,0 +1,52 @@
+.image-block {
+  position: relative;
+  width: 1024px;
+  height: 684px;
+
+  @media screen and (max-width: 912px) {
+    width: 100%;
+    background-position-x: center;
+  }
+
+  &--1 {
+    background-image: url("../images/image1013.svg");
+  }
+
+  &--2 {
+    margin-top: 34px;
+    background-image: url("../images/AdobeStock_2377429361.svg");
+  }
+
+  &--3 {
+    background-image: url("../images/AdobeStock_4304165381.svg");
+  }
+
+  &--4 {
+    background-image: url("../images/3232.svg");
+  }
+
+  &__logo {
+    position: absolute;
+    width: 305.57px;
+    height: 106.78px;
+    left: 52.54px;
+    top: 54.94px;
+    font-size: 38.4673px;
+    line-height: 47px;
+    border: 4.91729px solid #FFFFFF;
+
+    @media screen and (max-width: 912px) {
+      width: 280px;
+      position: relative;
+    }
+  }
+
+  &__title-line {
+    position: absolute;
+    bottom: 39px;
+    display: flex;
+    height: 87px;
+    width: 100%;
+    background-color: #040F85;
+  }
+}

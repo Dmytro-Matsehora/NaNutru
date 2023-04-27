@@ -1,0 +1,105 @@
+.logo {
+  box-sizing: border-box;
+  background-color: #040F85;
+  border: 6.15945px solid #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__text {
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    &--yellow {
+      color: #FFE600;
+    }
+  }
+
+  &__triangle {
+    position: absolute;
+    width: 21.43px;
+    height: 23.53px;
+
+    &--1 {
+      left: -18px;
+      top: -18px;
+
+      &--big {
+        left: -23px;
+        top: -23px;
+        width: 26.84px;
+        height: 29.48px;
+      }
+
+      &--small {
+        left: -9px;
+        top: -9px;
+        width: 11.07px;
+        height: 12.16px;
+      }
+    }
+
+    &--2 {
+      left: -18px;
+      bottom: -18px;
+      transform: matrix(1, 0, 0, -1, 0, 0);
+
+      &--big {
+        left: -23px;
+        bottom: -23px;
+        width: 26.84px;
+        height: 29.48px;
+      }
+
+      &--small {
+        left: -9px;
+        bottom: -9px;
+        width: 11.07px;
+        height: 12.16px;
+      }
+    }
+
+    &--3 {
+      right: -18px;
+      top: -18px;
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+
+      &--big {
+        right: -23px;
+        top: -23px;
+        width: 26.84px;
+        height: 29.48px;
+      }
+
+      &--small {
+        right: -9px;
+        top: -9px;
+        width: 11.07px;
+        height: 12.16px;
+      }
+    }
+
+    &--4 {
+      right: -18px;
+      bottom: -18px;
+      transform: rotate(180deg);
+
+      &--big {
+        right: -23px;
+        bottom: -23px;
+        width: 26.84px;
+        height: 29.48px;
+      }
+
+      &--small {
+        right: -9px;
+        bottom: -9px;
+        width: 11.07px;
+        height: 12.16px;
+      }
+    }
+  }
+}

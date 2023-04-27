@@ -1,0 +1,15 @@
+.screenshot {
+  display: flex;
+  justify-content: center;
+
+  &__image {
+    max-width: 735px;
+    max-height: 760px;
+
+    @media screen and (max-width: 912px) {
+      width: 400px;
+    }
+  }
+}
+
+

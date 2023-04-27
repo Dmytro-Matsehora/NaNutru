@@ -1,0 +1,45 @@
+.container {
+  max-width: 1064px;
+
+  @media screen and (max-width: 912px) {
+    width: calc(100% - 20px);
+    padding: 0 10px;
+  }
+
+  &__tittle {
+    margin-top: 50px;
+  }
+
+  &__description {
+    margin: 79px 0 50px;
+  }
+
+  &__screenshot {
+    margin-bottom: 132px;
+  }
+
+  &__text {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #222222;
+    margin: 29px 0 29px;
+
+    &--red {
+      color: #FF0000;
+      margin-bottom: 50px;
+    }
+
+    &--bold {
+      font-weight: 700;
+    }
+  }
+
+  &__image-block {
+    margin: 69px 0 47px;
+  }
+
+  &__answer {
+    margin-bottom: 74px;
+  }
+}

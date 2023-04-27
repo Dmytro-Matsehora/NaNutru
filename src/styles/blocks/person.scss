@@ -1,0 +1,39 @@
+.person {
+  color: #FFFFFF;
+  position: absolute;
+  left: 33.4px;
+  top: 490.74px;
+
+  &__name {
+    width: 420px;
+    background: rgba(4, 15, 133, 0.73);
+    backdrop-filter: blur(4.63834px);
+    font-weight: 600;
+    font-size: 35.6848px;
+    line-height: 43px;
+    text-transform: uppercase;
+    padding: 12px 0 12px 8px;
+
+    @media screen and (max-width: 912px) {
+      width: 280px;
+      font-size: 20px;
+      line-height: 20px;
+    }
+  }
+
+  &__job {
+    padding: 8px 0 8px 8px;
+    width: 420px;
+    background: rgba(0, 22, 255, 0.62);
+    backdrop-filter: blur(4.63382px);
+    font-weight: 400;
+    font-size: 21.7511px;
+    line-height: 27px;
+
+    @media screen and (max-width: 912px) {
+      width: 280px;
+      font-size: 20px;
+      line-height: 20px;
+    }
+  }
+}

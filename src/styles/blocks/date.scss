@@ -1,0 +1,21 @@
+.date {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48.1845px;
+  line-height: 59px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  align-items: start;
+
+  &__day {
+    margin: 10px 0 14px;
+    padding: 0 8px 0 2.5px;
+    color: #040F85;
+    background-color: #FFE600;
+  }
+
+  &__time {
+    font-weight: 800;
+  }
+}
