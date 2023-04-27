@@ -15,8 +15,13 @@ dateSpan.innerHTML = pastDateStr;
 
 const closeBtn = document.getElementById('close-btn');
 const popup = document.getElementById('popup');
+const closeBtn2 = document.getElementById('button');
 
 closeBtn.addEventListener('click', function() {
+  popup.style.display = 'none';
+});
+
+closeBtn2.addEventListener('click', function() {
   popup.style.display = 'none';
 });
 
