@@ -28,5 +28,3 @@ Start the development server on http://localhost:8080
 ```bash
 npm start
 ```
-
-**Thank you for your attention and may the force be with you!🌌**
